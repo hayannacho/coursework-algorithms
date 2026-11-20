@@ -1,6 +1,6 @@
 # Coursework algorithms
 
-Small implementations from my Georgia Tech MS coursework (Bioinformatics, Computational Science and Engineering), collected in one place. Each folder holds one module and its tests.
+Small implementations from my Georgia Tech MS coursework (Bioinformatics, Computational Science and Engineering), collected in one place. Each folder holds one module, its tests, and any example data it needs.
 
 These are learning exercises, not research projects. Inputs are small generated examples; course datasets and assignment handouts are not included.
 
@@ -11,6 +11,8 @@ These are learning exercises, not research projects. Inputs are small generated 
 | [`affine_global_alignment`](affine_global_alignment) | Global DNA alignment with affine gap penalties: three-state dynamic programming and traceback | CSE 6301, Fall 2025 |
 | [`six_frame_translation`](six_frame_translation) | Six-frame translation with the standard genetic code, reverse complement, input validation | BIOL 6505, Fall 2025 (team) |
 | [`primer_design`](primer_design) | Primer3 primer pair around a genomic position, 600–800 bp product | BIOL 6505, Fall 2025 (team) |
+| [`local_alignment_paths`](local_alignment_paths) | Optimal local alignment score and the count of all tied traceback paths | CSE 6301, Fall 2025 |
+| [`rad_seq_coverage`](rad_seq_coverage) | Recognition-window coverage for single RAD, ddRAD and 2bRAD, intersected with variant positions | BIOL 6505, Fall 2025 (team) |
 
 ## Machine learning
 
@@ -21,6 +23,7 @@ These are learning exercises, not research projects. Inputs are small generated 
 | [`hmm_state_inference`](hmm_state_inference) | Scaled forward–backward smoothing for a two-state hidden Markov model | CSE 6740, Spring 2026 |
 | [`kmeans_kmedoids`](kmeans_kmedoids) | K-means and K-medoids from scratch, compared with and without outliers | CSE 6740, Spring 2026 |
 | [`matrix_factorization`](matrix_factorization) | Biased low-rank rating model trained with SGD, optional L2 regularization | CSE 6740, Spring 2026 |
+| [`gmm_em_clustering`](gmm_em_clustering) | Full-covariance Gaussian mixtures and expectation–maximization in NumPy | CSE 6740, Spring 2026 |
 
 ## Simulation and data analysis
 
@@ -42,7 +45,7 @@ python -m pip install -r requirements.txt
 python -m pytest -q
 ```
 
-27 tests cover all ten modules. Most modules also run directly:
+49 tests cover all thirteen modules. Most modules also run directly:
 
 ```bash
 python affine_global_alignment/affine_alignment.py ACGT ACT
@@ -50,4 +53,4 @@ python six_frame_translation/six_frame.py ATGGCCTAA
 python hmm_state_inference/forward_backward.py 1 -1 1 1 --q 0.7
 ```
 
-PyTorch and PyTorch Geometric are needed only for the two CX 4803 folders, and Primer3 only for `primer_design`.
+PyTorch and PyTorch Geometric are needed only for the two CX 4803 folders, Primer3 only for `primer_design`, and Biopython only for `rad_seq_coverage`.

@@ -1,0 +1,30 @@
+{
+  "data": "synthetic two-component Gaussian mixture; no real observations",
+  "seed": 42,
+  "observations": 600,
+  "dimensions": 2,
+  "components": 2,
+  "iterations": 11,
+  "initial_log_likelihood": -2555.6855488030537,
+  "final_log_likelihood": -1734.2883280708606,
+  "means": [
+    [
+      -3.0261693307764053,
+      -0.010000073016114433
+    ],
+    [
+      3.024149339744739,
+      0.9889968911530347
+    ]
+  ],
+  "weights": [
+    0.4999915074757609,
+    0.5000084925242393
+  ],
+  "assigned_counts": [
+    300,
+    300
+  ],
+  "minimum_likelihood_increment": 6.311868219199823e-07,
+  "max_responsibility_sum_error": 2.220446049250313e-16
+}

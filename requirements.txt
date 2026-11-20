@@ -1,6 +1,7 @@
 numpy==2.4.6
 pandas==3.1.1
 matplotlib==3.11.2
+biopython==1.88
 primer3-py==2.4.0
 torch==2.15.0
 torch-geometric==2.8.1

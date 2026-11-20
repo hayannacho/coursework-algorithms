@@ -1,0 +1,63 @@
+[
+  {
+    "x": "ACGT",
+    "y": "ACGT",
+    "score": 8,
+    "count": 1,
+    "endpoints": [
+      {
+        "x_end": 4,
+        "y_end": 4,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "x": "A",
+    "y": "ACGA",
+    "score": 2,
+    "count": 2,
+    "endpoints": [
+      {
+        "x_end": 1,
+        "y_end": 1,
+        "count": 1
+      },
+      {
+        "x_end": 1,
+        "y_end": 4,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "x": "AAAA",
+    "y": "AA",
+    "score": 4,
+    "count": 3,
+    "endpoints": [
+      {
+        "x_end": 2,
+        "y_end": 2,
+        "count": 1
+      },
+      {
+        "x_end": 3,
+        "y_end": 2,
+        "count": 1
+      },
+      {
+        "x_end": 4,
+        "y_end": 2,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "x": "AAA",
+    "y": "CCC",
+    "score": 0,
+    "count": 0,
+    "endpoints": []
+  }
+]

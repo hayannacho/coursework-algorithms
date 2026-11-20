@@ -1,0 +1,12 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	synthetic_A	synthetic_B
+synthetic_chr1	150	v1	A	C	.	PASS	.	GT	0/0	1/1
+synthetic_chr1	400	v2	A	C	.	PASS	.	GT	1/1	0/0
+synthetic_chr1	620	v3	T	C	.	PASS	.	GT	0/0	1/1
+synthetic_chr1	850	v4	A	C	.	PASS	.	GT	0/0	1/1
+synthetic_chr1	1450	v5	A	C	.	PASS	.	GT	0/0	1/1
+synthetic_chr1	1550	v6	A	C	.	PASS	.	GT	0/1	0/0
+synthetic_chr1	1100	v7	A	C	.	PASS	.	GT	./.	1/1
+synthetic_chr1	1700	v8	A	C	.	PASS	.	GT	0/0	1/1
+other_chr	100	other	A	C	.	PASS	.	GT	0/0	1/1
